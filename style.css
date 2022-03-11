@@ -1,3 +1,6 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 body {
     background-color: #1F2937;
     margin: auto;
@@ -7,16 +10,28 @@ body {
 }
 .topbar {
     display: flex;
+    justify-content: space-between;
 }
 .logo{
-    font-size: 24px;
+    font-size: 28px;
     color: #F9FAF8;
 }
 .navbar{
+    font-size: 22px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
 }
 li{
     list-style: none;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+a:hover{
+    color: #3882F6;
 }
 .hero{
     display: flex;
