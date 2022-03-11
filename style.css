@@ -127,7 +127,7 @@ a:hover{
 }
 .signUp{
     background-color: white;
-    width: 100%;
+    width: 101%;
     display: flex;
     justify-content: center;
     padding: 50px 5px 50px 5px;
@@ -157,4 +157,8 @@ a:hover{
 }
 .signupBtn:hover{
     background-color: #2474f3;
+}
+footer{
+    font: lighter 1.2em Tahoma;
+    padding: 30px 0;
 }
