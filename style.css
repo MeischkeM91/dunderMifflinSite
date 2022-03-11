@@ -134,10 +134,27 @@ a:hover{
 }
 .callToAction{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
     width: 60%;
-
+    padding: 5px 40px;
 }
-button{
+.signUpVerb{
+    flex: 2 1 0%;
+}
+.signupBtn{
     background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #E5E7EB;
+    border-radius: 5px;
+    height: 30%;
+    font-size: 18px;
+    flex: 1 1 0%;
+}
+.signupBtn:hover{
+    background-color: #2474f3;
 }
